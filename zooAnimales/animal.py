@@ -26,7 +26,7 @@ class Animal:
         from zooAnimales.reptil import Reptil
         return "Mamiferos: " + str(Mamifero.cantidadMamiferos()) + "\nAves: " + str(Ave.cantidadAves()) + "\nReptiles: " + str(Reptil.cantidadReptiles()) + "\nPeces: " + str(Pez.cantidadPeces()) + "\nAnfibios: " + str(Anfibio.cantidadAnfibios()) 
 
-    def __str__(self):
+    def toSting(self):
         
         from gestion.zona import Zona
         from gestion.zoologico import Zoologico
