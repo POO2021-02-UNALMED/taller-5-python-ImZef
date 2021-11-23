@@ -31,7 +31,7 @@ class Animal:
         from gestion.zona import Zona
         from gestion.zoologico import Zoologico
 
-        if(type(self._zona) != None):
+        if(self._zona != None):
             return "Mi nombre es " + self._nombre + ", tengo una edad de "+  str(self._edad) + ",habito en " + self._habitat + " y mi genero es " + self._genero + ",la zona en la que me ubico es " + self._zona.getNombre() + ", en el"  + self._zona.getZoo().getNombre()
         
         else:
