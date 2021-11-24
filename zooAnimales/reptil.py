@@ -5,7 +5,7 @@ class Reptil(Animal):
     iguanas = 0
     serpientes = 0
 
-    def __init__(self, nombre, edad, habitat, genero, largoCola, colorEscamas):
+    def __init__(self, nombre, edad, habitat, genero, colorEscamas, largoCola):
         self._nombre = nombre
         self._edad = edad
         self._habitat = habitat
