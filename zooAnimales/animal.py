@@ -60,5 +60,5 @@ class Animal:
     def setZona(self, zona):
         self._zona = zona
 
-    def getNombre(self):
+    def getZona(self):
         return self._zona
